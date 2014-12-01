@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">TwitterApp</string>
+    <string name="app_name">Twitter App</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="login_label">Login</string>
+    <string name="action_compose">New tweet</string>
+    <string name="login_label">Connect to Twitter</string>
+    <string name="title_activity_timeline">TimelineActivity</string>
+    <string name="foo_label">\@foo</string>
+    <string name="empty_label" />
+    <string name="submit_label">Tweet</string>
+    <string name="body_hint">What\'s happening?</string>
 
 </resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/ivAccountProfileImage"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:padding="3dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_label"
+        android:id="@+id/tvAccountName"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ivAccountProfileImage"
+        android:layout_marginLeft="5dp"
+        android:textSize="12dp"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_label"
+        android:id="@+id/tvAccountScreenName"
+        android:layout_below="@+id/tvAccountName"
+        android:layout_alignLeft="@+id/tvAccountName"
+        android:textSize="12dp"
+        android:textColor="@color/gray"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBody"
+        android:layout_below="@+id/ivAccountProfileImage"
+        android:layout_alignParentLeft="true"
+        android:hint="@string/body_hint"
+        android:lines="3"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_label"
+        android:id="@+id/btnNewTweet"
+        android:layout_below="@+id/etBody"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+
+</RelativeLayout>
